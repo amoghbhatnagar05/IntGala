@@ -28,6 +28,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
         <AriaAssistant />
+        <div className="fixed bottom-2 left-1/2 -translate-x-1/2 z-40 text-white/20 text-xs pointer-events-none">
+  developed by amogh bhatnagar
+</div>
       </body>
     </html>
   )
